@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="navyblue">
+	<h1>
+		<center>
+			<font color="red">OrderTrackingSystem</font>
+		</center>
+
+	</h1>
+	<form action="orderurl" method="post">
+		<fieldset>
+			<legend>
+				<p>place order here now!!!</p>
+			</legend>
+			<table align="center" width="40%">
+				<tr>
+					<td align="center">ItemName:</td>
+					<td><input type="text" name="itemname"></td>
+				</tr>
+				<tr>
+					<td align="center">Quantity:</td>
+					<td><input type="text" name="qty"></td>
+				</tr>
+			</table>
+			<center>
+				<input type="submit" value="add">
+			</center>
+		</fieldset>
+	</form>
+	<form action="addressurl" method="post">
+		<fieldset>
+			<legend>
+				<p>Enter correct address!!!</p>
+			</legend>
+			<table align="center" width="40%">
+				<tr>
+					<td align="center">AddressLine1:</td>
+					<td><input type="text" name="line1"></td>
+				</tr>
+				<tr>
+					<td align="center">AddressLine2:</td>
+					<td><input type="text" name="line2"></td>
+				</tr>
+				<tr>
+					<td align="center">City:</td>
+					<td><input type="text" name="city"></td>
+				</tr>
+				<tr>
+					<td align="center">State:</td>
+					<td><input type="text" name="state"></td>
+				</tr>
+				<tr>
+					<td align="center">Zip-Code:</td>
+					<td><input type="text" name="zipCode"></td>
+				</tr>
+				<tr>
+					<td align="center">Country:</td>
+					<td><input type="text" name="country"></td>
+				</tr>
+				<tr>
+					<td align="center">Contact No:</td>
+					<td><input type="text" name="contactno"></td>
+				</tr>
+			</table>
+			<center>
+				<input type="submit" value="placeOrder">
+			</center>
+		</fieldset>
+	</form>
+</body>
+</html>
