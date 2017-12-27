@@ -1,0 +1,13 @@
+<web-app>
+<servlet>
+<servlet-name>A</servlet-name>
+<servlet-class>DbSrv</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name> A</servlet-name>
+<url-pattern>/dburl</url-pattern>
+</servlet-mapping>
+<welcome-list-file>
+<welcome-list>input.html</welcome-list>
+</welcome-list-file>
+</web-app>
